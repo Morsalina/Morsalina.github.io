@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @Morsalina
-- 👀 I’m interested in HCI and android development
+- I worked as a Software QA Engineer 
+- 👀 I’m interested in HCI 
 - 🌱 Currently I am learning ML and DL
 
 <!---
