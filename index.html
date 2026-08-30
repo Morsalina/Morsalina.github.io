@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morsalina (Kowmi)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #e1e4e8;
+            padding: 40px 0;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            margin-bottom: 24px;
+            border-top: 1px solid #e1e4e8;
+            border-bottom: 1px solid #e1e4e8;
+            padding: 16px 0;
+        }
+
+        nav a {
+            display: inline-block;
+            margin-right: 24px;
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 48px;
+        }
+
+        section h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e1e4e8;
+        }
+
+        .bio {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e1e4e8;
+            margin-bottom: 24px;
+        }
+
+        .bio p {
+            margin-bottom: 12px;
+            line-height: 1.8;
+        }
+
+        .education-item,
+        .experience-item,
+        .interest-item {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 16px;
+            border-radius: 6px;
+            border-left: 4px solid #0366d6;
+        }
+
+        .education-item h3,
+        .experience-item h3,
+        .interest-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .education-item .meta,
+        .experience-item .meta {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .education-item p,
+        .experience-item p,
+        .interest-item p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 12px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px 0;
+            border-top: 1px solid #e1e4e8;
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+        }
+
+        .links {
+            margin-top: 16px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 16px;
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+
+            nav a {
+                display: block;
+                margin-right: 0;
+                margin-bottom: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Morsalina (Kowmi)</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#research">Research Interests</a>
+            <a href="#experience">Experience</a>    
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="bio">
+                <p>
+                    I am a former Software QA Engineer and Computer Science graduate focused on human-computer interaction 
+                    research. I relocated to Chicago to pursue graduate studies and explore how software engineering
+                    can better serve users through improved design, accessibility, and user-centered evaluation 
+                    methods.
+                </p>
+                <p>
+                    My professional experience in QA has given me hands on insights into software testing, 
+                    usability evaluation, and accessibility compliance. I am passionate about applying these 
+                    practical perspectives to HCI research and understanding how to design, test, and 
+                    improve software systems that work for diverse users.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <h3>B.Sc. Computer Science and Engineering</h3>
+                <div class="meta">Islamic University of Technology (IUT) | Graduated 2023</div>
+                <p><strong>CGPA:</strong> 3.84 / 4.00</p>
+                <p>
+                    <strong>Thesis:</strong> Dark Triad Personality Detection using social media posts.
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+
+            <div class="education-item">
+                <h3>Higher Secondary Certificate</h3>
+                <div class="meta">Rajshahi College | Passing Year 2018</div>
+                <p><strong>GPA:</strong> 5.00 / 5.00</p>
+                <p>
+                    <strong>Award</strong> Rajshahi Education Board Scholarship.
+                </p>
+            </div>
+        </section>
+
+      
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Software QA Engineer</h3>
+                <div class="meta">Therap BD Ltd. | Feb, 2024 – August, 2026</div>
+                <ul>
+                    <li>Designed and executed UI/UX test plans for healthcare software applications</li>
+                    <li>Conducted accessibility testing and usability testing</li>
+                    <li>Developed and maintained Playwright-based test automation frameworks</li>
+                    <li>Performed regression testing and defect tracking</li>
+                    <li>Collaborated with developers on code reviews and quality improvement initiatives</li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <section id="research">
+            <h2>Research Interests</h2>
+            
+            <div class="interest-item">
+                <h3>Software Quality, Testing, and Verification</h3>
+                <p>
+                    I am interested in how we can systematically find, understand, and prevent bugs in 
+                    software systems. This includes developing better testing methodologies, improving the 
+                    usability and effectiveness of static analysis and automated testing tools, and 
+                    leveraging AI/ML techniques to enhance software quality. I am particularly drawn to 
+                    how rigorous evaluation methods can verify that software not only works correctly, 
+                    but is robust, reliable, and resilient to edge cases and unexpected inputs.
+                </p>
+            </div>
+
+
+            <div class="interest-item">
+                <h3>Human-Centered Design and User Experience Research</h3>
+                <p>
+                    I believe that well-designed software emerges from deep understanding of 
+                    user needs. I am interested in UI/UX research that involves designing, 
+                    prototyping, and systematically evaluating user experiences. This includes 
+                    making developer tools more intuitive and effective, understanding how users 
+                    interact with data visualizations and interfaces, and applying human-centered 
+                    interaction modeling to build systems that serve real people better.
+                </p>
+            </div>
+
+            <div class="interest-item">
+                <h3>Software Engineering</h3>
+                <p>
+                    I am interested in how software engineering principles and HCI methods can be 
+                    applied to solve problems in critical domains like healthcare, education, and 
+                    social contexts. This includes designing and assessing educational technologies 
+                    using human-centered methods, engineering software systems that support social good, 
+                    and understanding how technology impacts human behavior and society particularly 
+                    in domains like online social networks and data-driven systems.
+                </p>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Morsalina (Kowmi). All rights reserved.</p>
+            <div class="links">
+                <a href="https://github.com/Morsalina">GitHub</a>
+                <a href="https://linkedin.com/in/morsalinakowmi">LinkedIn</a>
+                <a href="mailto:morsalina@iut-dhaka.edu">Email</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
